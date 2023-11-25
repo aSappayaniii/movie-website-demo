@@ -6,7 +6,7 @@ import MovieCard from "./MovieCard";
 import './App.css';
 import SearchIcon from './search.svg';
 
-const API_URL = 'http://www.omdbapi.com?apikey=75b398eb';
+const API_URL = 'https://www.omdbapi.com?apikey=75b398eb';
 
 const App = () => {
     const [movies, setMovies] = useState([]);
